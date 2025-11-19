@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="8dp">
+
+        <Button android:id="@+id/btnThread" android:text="Start Thread Example"   android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button android:id="@+id/btnService" android:text="Start Service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnIntentService" android:text="Start IntentService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnJobIntentService" android:text="Start JobIntentService"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnForegroundService" android:text="Start Foreground Service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnBoundService" android:text="Bind Bound Service"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnAsyncTask" android:text="Run AsyncTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnHandler" android:text="Run Handler Example"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnWorkManager" android:text="Run WorkManager Task"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <Button android:id="@+id/btnJobScheduler" android:text="Schedule Job"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
